@@ -1,0 +1,23 @@
+nav {
+    background-color: rgba(0,0,0,0.2);
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: white;
+    z-index: 20;
+    -webkit-backface-visibilty: hidden;
+    -webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+
+}
+.viewport {
+    max-width: 1240px;
+    height: 100%;
+    padding: 0 20px;
+    margin: auto;
+    position: relative;
+}
