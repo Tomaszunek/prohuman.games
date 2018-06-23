@@ -1,5 +1,5 @@
 import * as React from 'react';
-import {Observable}  from "rxjs/Observable.js";
+import {Observable} from "rxjs/Observable.js";
 import './App.css';
 import Navigation from './components/navigation/Navigation';
 
@@ -7,7 +7,6 @@ import Navigation from './components/navigation/Navigation';
 class App extends React.Component {
   
   public render() {
-    console.log(Observable);
     return (
       <div>
         <Navigation/>
