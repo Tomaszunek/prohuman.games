@@ -35,7 +35,6 @@ class Navigation extends React.Component {
       </nav>
     )
   }
-}
-   
+}   
 
 export default Navigation;
